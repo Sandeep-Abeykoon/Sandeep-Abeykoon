@@ -1,4 +1,4 @@
-name: Update total repository count
+name: Update profile statistics
 
 on:
   schedule:
@@ -9,16 +9,17 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-profile-repository-count
+  group: update-profile-statistics
   cancel-in-progress: true
 
 jobs:
   update-count:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Check out the profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check whether private repository access is configured
         id: token
@@ -27,13 +28,13 @@ jobs:
         shell: bash
         run: |
           if [[ -z "$PROFILE_REPOSITORY_TOKEN" ]]; then
-            echo "::notice::Add the PROFILE_REPOSITORY_TOKEN secret to enable the total repository badge."
+            echo "::notice::Add the PROFILE_REPOSITORY_TOKEN secret to enable the private-aware profile statistics."
             echo "configured=false" >> "$GITHUB_OUTPUT"
           else
             echo "configured=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Update the repository badge
+      - name: Update the profile statistic badges
         if: steps.token.outputs.configured == 'true'
         id: update
         env:
@@ -47,12 +48,12 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit the updated count
+      - name: Commit the updated statistics
         if: steps.update.outputs.changed == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: update total repository count"
+          git commit -m "chore: update profile statistics"
           git push
