@@ -26,7 +26,7 @@
 
 I'm a **BEng (Hons) Software Engineering undergraduate** at the **University of Westminster**, studying through the Informatics Institute of Technology (IIT) in Sri Lanka.
 
-I build practical **full-stack products** and **applied AI systems**, working across React and Next.js interfaces, Node.js and Spring Boot APIs, relational and document databases, and Python-based machine learning. I enjoy taking products through the complete engineering flow—from interface and API design to data, deployment, and intelligent features.
+I build practical **full-stack products** and **applied AI systems**, working across React and Next.js interfaces, Node.js, NestJS, and Spring Boot APIs, relational and document databases, and Python-based machine learning. I enjoy taking products through the complete engineering flow—from interface and API design to data, deployment, and intelligent features.
 
 - 📍 Based in Sri Lanka
 - 🔎 Open to software engineering internships, graduate roles, and collaborations
@@ -102,9 +102,33 @@ An ESP32 smart water-level monitor with an OLED interface, live WebSocket and RE
 
 ## Core Technologies
 
-**Core:** `TypeScript` · `React` · `Next.js` · `Node.js` · `PostgreSQL` · `Python`
+**Core:** `TypeScript` · `React` · `Next.js` · `Node.js` · `NestJS` · `PostgreSQL` · `Python`
 
 **Also experienced with:** `Java` · `Spring Boot` · `Express` · `MongoDB` · `MySQL` · `AWS/S3` · `Tailwind CSS`
+
+## GitHub Activity
+
+<p align="center">
+  <img
+    width="55%"
+    src="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark&title_color=22c55e&icon_color=22c55e&ring_color=22c55e&custom_title=GitHub%20Statistics"
+    alt="Sandeep Abeykoon's GitHub statistics, including total commits"
+  />
+</p>
+
+<p align="center">
+  <strong>Contribution Calendar</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Sandeep-Abeykoon">
+    <img
+      width="100%"
+      src="https://ghchart.rshah.org/22c55e/Sandeep-Abeykoon"
+      alt="Sandeep Abeykoon's GitHub contribution calendar highlighted in green"
+    />
+  </a>
+</p>
 
 ## Let's Connect
 
