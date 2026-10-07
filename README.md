@@ -112,8 +112,8 @@ An ESP32 smart water-level monitor with an OLED interface, live WebSocket and RE
   <!-- REPOSITORY-COUNT:START -->
   <a href="https://github.com/Sandeep-Abeykoon?tab=repositories">
     <img
-      src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSandeep-Abeykoon&query=%24.public_repos&label=Public%20Repositories&color=238636&labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
-      alt="Total number of public GitHub repositories"
+      src="https://img.shields.io/badge/Total%20Repositories-51-238636?labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
+      alt="51 total GitHub repositories"
     />
   </a>
   <!-- REPOSITORY-COUNT:END -->
