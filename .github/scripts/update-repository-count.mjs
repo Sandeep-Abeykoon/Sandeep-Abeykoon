@@ -137,6 +137,97 @@ if (totalCommits === 0) {
   );
 }
 
+async function githubGraphql(query, variables) {
+  const response = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      ...requestHeaders,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ query, variables }),
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `GitHub could not calculate all-time contributions (status ${response.status}).`,
+    );
+  }
+
+  const payload = await response.json();
+
+  if (!payload?.data || payload.errors?.length) {
+    throw new Error("GitHub returned an unexpected contribution response.");
+  }
+
+  return payload.data;
+}
+
+const contributionYearData = await githubGraphql(
+  `query ($login: String!) {
+    user(login: $login) {
+      contributionsCollection {
+        contributionYears
+      }
+    }
+  }`,
+  { login: owner },
+);
+
+const currentDate = new Date();
+const currentYear = currentDate.getUTCFullYear();
+const contributionYears = [
+  ...new Set(
+    contributionYearData.user?.contributionsCollection?.contributionYears,
+  ),
+]
+  .filter(
+    (year) => Number.isInteger(year) && year >= 2008 && year <= currentYear,
+  )
+  .sort((first, second) => first - second);
+
+if (contributionYears.length === 0) {
+  throw new Error("GitHub returned no contribution years.");
+}
+
+const yearlyContributionFields = contributionYears
+  .map((year) => {
+    const from = `${year}-01-01T00:00:00Z`;
+    const to =
+      year === currentYear
+        ? currentDate.toISOString()
+        : `${year}-12-31T23:59:59Z`;
+
+    return `year_${year}: contributionsCollection(from: "${from}", to: "${to}") {
+      contributionCalendar {
+        totalContributions
+      }
+    }`;
+  })
+  .join("\n");
+
+const contributionData = await githubGraphql(
+  `query ($login: String!) {
+    user(login: $login) {
+      ${yearlyContributionFields}
+    }
+  }`,
+  { login: owner },
+);
+
+const totalContributions = contributionYears.reduce(
+  (total, year) =>
+    total +
+    (contributionData.user?.[`year_${year}`]?.contributionCalendar
+      ?.totalContributions ?? 0),
+  0,
+);
+
+if (totalContributions === 0) {
+  throw new Error(
+    "No contributions were returned. Refusing to replace the existing badge.",
+  );
+}
+
 const formattedRepositories = totalRepositories.toLocaleString("en-US");
 const repositoryBadgeValue = encodeURIComponent(formattedRepositories);
 const repositoryReplacement = `<!-- REPOSITORY-COUNT:START -->
@@ -159,12 +250,25 @@ const commitReplacement = `<!-- COMMIT-COUNT:START -->
   </a>
   <!-- COMMIT-COUNT:END -->`;
 
+const formattedContributions = totalContributions.toLocaleString("en-US");
+const contributionBadgeValue = encodeURIComponent(formattedContributions);
+const contributionReplacement = `<!-- CONTRIBUTION-COUNT:START -->
+  <a href="https://github.com/${owner}">
+    <img
+      src="https://img.shields.io/badge/All--Time%20Contributions-${contributionBadgeValue}-238636?labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
+      alt="${formattedContributions} all-time GitHub contributions"
+    />
+  </a>
+  <!-- CONTRIBUTION-COUNT:END -->`;
+
 const readmePath = "README.md";
 const readme = await readFile(readmePath, "utf8");
 const repositoryMarkerPattern =
   /<!-- REPOSITORY-COUNT:START -->[\s\S]*?<!-- REPOSITORY-COUNT:END -->/;
 const commitMarkerPattern =
   /<!-- COMMIT-COUNT:START -->[\s\S]*?<!-- COMMIT-COUNT:END -->/;
+const contributionMarkerPattern =
+  /<!-- CONTRIBUTION-COUNT:START -->[\s\S]*?<!-- CONTRIBUTION-COUNT:END -->/;
 
 if (!repositoryMarkerPattern.test(readme)) {
   throw new Error("Repository-count markers were not found in README.md.");
@@ -174,9 +278,16 @@ if (!commitMarkerPattern.test(readme)) {
   throw new Error("Commit-count markers were not found in README.md.");
 }
 
+if (!contributionMarkerPattern.test(readme)) {
+  throw new Error("Contribution-count markers were not found in README.md.");
+}
+
 const updatedReadme = readme
   .replace(repositoryMarkerPattern, repositoryReplacement)
-  .replace(commitMarkerPattern, commitReplacement);
+  .replace(commitMarkerPattern, commitReplacement)
+  .replace(contributionMarkerPattern, contributionReplacement);
 await writeFile(readmePath, updatedReadme, "utf8");
 
-console.log("The total repository and authored-commit badges are up to date.");
+console.log(
+  "The repository, authored-commit, and all-time contribution badges are up to date.",
+);

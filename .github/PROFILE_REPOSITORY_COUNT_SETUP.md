@@ -1,9 +1,9 @@
 # Private-aware profile statistics setup
 
 The profile README can display the combined number of public and private
-repositories and the commits authored by `Sandeep-Abeykoon` across their
-default branches. The workflow publishes only the two totals, without exposing
-private repository names or commit details.
+repositories, the commits authored by `Sandeep-Abeykoon` across their default
+branches, and all-time GitHub contributions. The workflow publishes only the
+three totals, without exposing private repository names or activity details.
 
 ## One-time setup
 
@@ -26,10 +26,12 @@ private repository names or commit details.
 
 The workflow then runs daily. It queries only repositories owned by the
 authenticated account, updates the **Total Repositories** and **Total Commits**
-badges, and commits only when either total changes. The commit total includes
-commits authored by `Sandeep-Abeykoon` that are reachable from each owned
-repository's default branch. It excludes other contributors' commits and
-unmerged commits that exist only on secondary branches.
+badges and the **All-Time Contributions** badge, and commits only when a total
+changes. The commit total includes commits authored by `Sandeep-Abeykoon` that
+are reachable from each owned repository's default branch. It excludes other
+contributors' commits and unmerged commits that exist only on secondary
+branches. The contribution total follows GitHub's contribution-calendar rules
+and is calculated by summing every contribution year returned by GitHub.
 
 The token can read private repository contents because GitHub requires that
 permission for private commit history. The updater requests commit metadata
