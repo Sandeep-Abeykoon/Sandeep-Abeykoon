@@ -109,24 +109,42 @@ An ESP32 smart water-level monitor with an OLED interface, live WebSocket and RE
 ## GitHub Activity
 
 <p align="center">
-  <img
-    width="55%"
-    src="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark&title_color=22c55e&icon_color=22c55e&ring_color=22c55e&custom_title=GitHub%20Statistics"
-    alt="Sandeep Abeykoon's GitHub statistics, including total commits"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark_dimmed&title_color=3fb950&icon_color=3fb950&ring_color=3fb950&custom_title=GitHub%20Statistics"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide_border=true&theme=default&title_color=1f883d&icon_color=2da44e&ring_color=2da44e&custom_title=GitHub%20Statistics"
+    />
+    <img
+      width="55%"
+      src="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide_border=true&theme=default&title_color=1f883d&icon_color=2da44e&ring_color=2da44e&custom_title=GitHub%20Statistics"
+      alt="Sandeep Abeykoon's GitHub statistics, including total commits"
+    />
+  </picture>
 </p>
 
-<p align="center">
-  <strong>Contribution Calendar</strong>
-</p>
+<h3 align="center">Contribution Calendar</h3>
 
 <p align="center">
   <a href="https://github.com/Sandeep-Abeykoon">
-    <img
-      width="100%"
-      src="https://ghchart.rshah.org/22c55e/Sandeep-Abeykoon"
-      alt="Sandeep Abeykoon's GitHub contribution calendar highlighted in green"
-    />
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://ghchart.xqsit94.in/dark:3fb950/Sandeep-Abeykoon"
+      />
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="https://ghchart.xqsit94.in/light:2da44e/Sandeep-Abeykoon"
+      />
+      <img
+        width="100%"
+        src="https://ghchart.xqsit94.in/light:2da44e/Sandeep-Abeykoon"
+        alt="Sandeep Abeykoon's GitHub contribution calendar in an eye-friendly green palette"
+      />
+    </picture>
   </a>
 </p>
 
