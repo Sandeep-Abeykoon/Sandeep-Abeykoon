@@ -1,0 +1,58 @@
+name: Update total repository count
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-repository-count
+  cancel-in-progress: true
+
+jobs:
+  update-count:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+
+      - name: Check whether private repository access is configured
+        id: token
+        env:
+          PROFILE_REPOSITORY_TOKEN: ${{ secrets.PROFILE_REPOSITORY_TOKEN }}
+        shell: bash
+        run: |
+          if [[ -z "$PROFILE_REPOSITORY_TOKEN" ]]; then
+            echo "::notice::Add the PROFILE_REPOSITORY_TOKEN secret to enable the total repository badge."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Update the repository badge
+        if: steps.token.outputs.configured == 'true'
+        id: update
+        env:
+          PROFILE_REPOSITORY_TOKEN: ${{ secrets.PROFILE_REPOSITORY_TOKEN }}
+        shell: bash
+        run: |
+          node .github/scripts/update-repository-count.mjs
+          if git diff --quiet -- README.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit the updated count
+        if: steps.update.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update total repository count"
+          git push
