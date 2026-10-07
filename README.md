@@ -109,19 +109,34 @@ An ESP32 smart water-level monitor with an OLED interface, live WebSocket and RE
 ## GitHub Activity
 
 <p align="center">
+  <a href="https://github.com/Sandeep-Abeykoon?tab=repositories">
+    <img
+      src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSandeep-Abeykoon&query=%24.public_repos&label=Public%20Repositories&color=238636&labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
+      alt="Total number of public GitHub repositories"
+    />
+  </a>
+  <a href="https://github.com/Sandeep-Abeykoon">
+    <img
+      src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3ASandeep-Abeykoon&query=%24.total_count&label=Total%20Commits&color=238636&labelColor=1f2937&style=for-the-badge&logo=git&logoColor=white"
+      alt="Total number of public GitHub commits"
+    />
+  </a>
+</p>
+
+<p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark_dimmed&title_color=3fb950&icon_color=3fb950&ring_color=3fb950&custom_title=GitHub%20Statistics"
+      srcset="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide=commits&hide_border=true&theme=github_dark_dimmed&title_color=3fb950&icon_color=3fb950&ring_color=3fb950&custom_title=Additional%20GitHub%20Statistics"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide_border=true&theme=default&title_color=1f883d&icon_color=2da44e&ring_color=2da44e&custom_title=GitHub%20Statistics"
+      srcset="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide=commits&hide_border=true&theme=default&title_color=1f883d&icon_color=2da44e&ring_color=2da44e&custom_title=Additional%20GitHub%20Statistics"
     />
     <img
       width="55%"
-      src="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide_border=true&theme=default&title_color=1f883d&icon_color=2da44e&ring_color=2da44e&custom_title=GitHub%20Statistics"
-      alt="Sandeep Abeykoon's GitHub statistics, including total commits"
+      src="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&include_all_commits=true&hide=commits&hide_border=true&theme=default&title_color=1f883d&icon_color=2da44e&ring_color=2da44e&custom_title=Additional%20GitHub%20Statistics"
+      alt="Additional GitHub statistics for Sandeep Abeykoon"
     />
   </picture>
 </p>
@@ -133,16 +148,16 @@ An ESP32 smart water-level monitor with an OLED interface, live WebSocket and RE
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
-        srcset="https://ghchart.xqsit94.in/dark:3fb950/Sandeep-Abeykoon"
+        srcset="https://gitcolors.vercel.app/api/svg?username=Sandeep-Abeykoon&color=3fb950&theme=dark&mode=levels&emptyColor=neutral&animate=false"
       />
       <source
         media="(prefers-color-scheme: light)"
-        srcset="https://ghchart.xqsit94.in/light:2da44e/Sandeep-Abeykoon"
+        srcset="https://gitcolors.vercel.app/api/svg?username=Sandeep-Abeykoon&color=2da44e&theme=light&mode=levels&emptyColor=neutral&animate=false"
       />
       <img
         width="100%"
-        src="https://ghchart.xqsit94.in/light:2da44e/Sandeep-Abeykoon"
-        alt="Sandeep Abeykoon's GitHub contribution calendar in an eye-friendly green palette"
+        src="https://gitcolors.vercel.app/api/svg?username=Sandeep-Abeykoon&color=2da44e&theme=light&mode=levels&emptyColor=neutral&animate=false"
+        alt="Sandeep Abeykoon's GitHub contribution calendar with softly outlined cells"
       />
     </picture>
   </a>
