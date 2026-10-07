@@ -1,226 +1,181 @@
-<!-- =========================
-     HEADER
-========================= -->
+<!-- =========================================================
+     Sandeep Abeykoon — GitHub Profile README
+     Clean, professional, recruiter-friendly version
+========================================================== -->
 
+<!-- Header -->
 <p align="center">
-  <img src="./github-header-image.png" alt="Sandeep Abeykoon GitHub Header" width="100%" />
-</p>
-
-<h1 align="center">Hi, I'm Sandeep Abeykoon 👋</h1>
-
-<h3 align="center">
-  Software Engineering Undergraduate • Full-Stack Developer • AI/ML
-</h3>
-
-<p align="center">
-  I build modern full-stack applications and intelligent software systems,
-  with a focus on clean architecture, practical problem-solving, and user-focused experiences.
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:1e3a8a,100:2563eb&height=210&section=header&text=Sandeep%20Abeykoon&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Undergraduate%20%E2%80%A2%20Full-Stack%20Developer%20%E2%80%A2%20AI%2FML&descAlignY=56&descSize=17"
+    alt="Sandeep Abeykoon"
+  />
 </p>
 
 <p align="center">
   <a href="https://sandeepabeykoon.me/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-sandeepabeykoon.me-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://www.linkedin.com/in/sandeep-abeykoon-39094b223/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://www.linkedin.com/in/sandeepabeykoon">
+    <img src="https://img.shields.io/badge/LinkedIn-Sandeep%20Abeykoon-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:sandeepchanura@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
----
+## About Me
 
-## 👨‍💻 About Me
+I'm a **Software Engineering undergraduate** and **Full-Stack Developer** with an interest in **AI and Machine Learning**.
 
-I am a **Software Engineering undergraduate** interested in building practical, scalable, and intelligent software solutions.
-
-My work currently focuses on **full-stack web development, backend systems, databases, AI/ML, computer vision, and modern web technologies**.
-
-I enjoy working on projects that go beyond basic CRUD applications and involve areas such as authentication, APIs, role-based access control, data processing, AI integration, explainability, analytics, and real-world business requirements.
+I enjoy building practical software that combines clean user experiences with reliable backend systems. My work spans web applications, REST APIs, databases, object-oriented software, and data-driven projects.
 
 - 🎓 Software Engineering Undergraduate
-- 💻 Full-Stack Web Development
-- 🤖 AI / Machine Learning
-- 🧠 Computer Vision & Explainable AI
-- 🗄️ Database Design & Backend Development
-- 🐳 Docker & modern development workflows
-- 🌱 Continuously learning software architecture, AI/ML, and production-ready development
+- 💻 Interested in full-stack and backend engineering
+- 🤖 Exploring AI/ML and intelligent software systems
+- 🧩 Interested in clean architecture, APIs, databases, and application security
+- 🌱 Continuously improving through hands-on development and real-world problem solving
+- 🌍 Based in Sri Lanka
 
----
+## Selected Work
 
-## 🚀 Featured Projects
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 🔬 TireVisionPro
+### 📊 SalesCast
 
-**Explainable AI-based Tire Defect Detection System**
+A sales-focused software project exploring **sales forecasting** and **brand recommendation** using machine-learning and NLP concepts.
 
-AI-powered tire defect classification system designed to identify tire defects and provide understandable explanations for model predictions.
+**Focus:**  
+`Machine Learning` `NLP` `Data Analysis` `Forecasting`
 
-**Highlights**
+<a href="https://github.com/Sandeep-Abeykoon/SalesCast"><strong>View Repository →</strong></a>
 
-- Deep learning-based tire defect classification
-- Hybrid ensemble model experimentation
-- Cross-dataset model evaluation
-- Explainable AI using **LIME and SHAP**
-- LLM-generated technician-friendly explanations
-- React frontend with Flask backend
-- Structured model testing and performance evaluation
+</td>
+<td width="50%" valign="top">
 
-**Tech:** Python · Deep Learning · Flask · React · LIME · SHAP · Machine Learning
+### ⛽ Fuel Queue Management System
 
----
+A Java application created to model and manage fuel queues while applying **object-oriented programming** and GUI-development concepts.
 
-### 🥫 ShelfLife
+**Focus:**  
+`Java` `JavaFX` `OOP` `Application Design`
 
-**AI-Powered Food Management & Food Waste Reduction Platform**
+<a href="https://github.com/Sandeep-Abeykoon/Fuel-Queue-Management-System"><strong>View Repository →</strong></a>
 
-A full-stack application designed to help users manage food inventory, monitor expiry dates, reduce food waste, and receive intelligent recommendations.
+</td>
+</tr>
 
-**Highlights**
+<tr>
+<td width="50%" valign="top">
 
-- Pantry and food inventory management
-- Expiry intelligence and "Use First" recommendations
-- Consumed and wasted food tracking
-- Dashboard and analytics
-- Secure authentication
-- AI assistant integration
-- Image and expiry-date scanning
-- Voice interaction features
-- Dockerized development environment
+### 🩺 Westminster Skin Consultation Manager
 
-**Tech:** React · Node.js · Express.js · MongoDB · AI/ML · Docker
+A consultation-management application focused on **Java**, object-oriented design, data handling, and desktop application development.
 
----
+**Focus:**  
+`Java` `OOP` `GUI Development` `Data Management`
 
-### 📸 Memo-Ceylon
+<a href="https://github.com/Sandeep-Abeykoon/Westminster-Skin-Consultation-Manager"><strong>View Repository →</strong></a>
 
-**Tourist Photography Sales & Digital Delivery Platform**
+</td>
+<td width="50%" valign="top">
 
-A full-stack platform designed for tourist photography businesses to organize photography sessions and allow visitors to discover, purchase, and securely access their photos.
+### 🌐 WAZOBIA
 
-**Highlights**
+A web-development project built while working with technologies including **JavaScript, MongoDB, and Tailwind CSS**.
 
-- Location, date, and session-based photo discovery
-- Session-based QR access
-- Photographer and administrator roles
-- Role-based authentication and authorization
-- Automated watermarking and photo processing
-- Private original image storage
-- Shopping cart and order management
-- Gallery expiry management
-- Public and private photo purchase workflows
-- Payment integration architecture
+**Focus:**  
+`JavaScript` `MongoDB` `Tailwind CSS` `Web Development`
 
-**Tech:** React · TypeScript · NestJS · PostgreSQL · Prisma · REST APIs
+<a href="https://github.com/Sandeep-Abeykoon/WAZOBIA"><strong>View Repository →</strong></a>
 
----
+</td>
+</tr>
+</table>
 
-### 🏢 JMJ Enterprise
+<p align="center">
+  <a href="https://github.com/Sandeep-Abeykoon?tab=repositories">
+    <strong>Explore all repositories →</strong>
+  </a>
+</p>
 
-**Modern Business Website & Management Platform**
-
-A real-world business web application developed collaboratively as part of a three-member development team.
-
-**Highlights**
-
-- Modern responsive business website
-- Product and content management
-- Administrative functionality
-- Database-backed application architecture
-- Cloud-based media handling
-- Modern responsive UI/UX
-- SEO and performance-focused implementation
-
-**Tech:** Next.js · TypeScript · React · Prisma · PostgreSQL · AWS S3
-
----
-
-## 🛠️ Technical Skills
+## Tech Stack
 
 ### Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,html,css,tailwind" alt="Frontend technologies" />
 </p>
 
-### Backend
+### Backend & Programming
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,flask,python,java" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,python,java,flask" alt="Backend technologies" />
 </p>
 
 ### Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql" />
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" alt="Databases" />
 </p>
 
-### AI / Machine Learning
+### Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow" />
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode" alt="Development tools" />
 </p>
 
-**Also working with:**  
-Machine Learning · Deep Learning · Computer Vision · Scikit-learn · Pandas · LIME · SHAP · LLM Integration
+## What I'm Focusing On
 
-### Development Tools
+I'm currently strengthening my skills in:
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode" />
-</p>
+`Full-Stack Development` • `Backend Engineering` • `REST APIs` • `Database Design` • `Application Security` • `AI/ML`
 
----
+I’m particularly interested in building software that solves real problems rather than only demonstrating individual technologies.
 
-## 🎯 Current Focus
-
-I'm currently focusing on improving my knowledge and experience in:
-
-- Full-stack application architecture
-- Backend engineering and REST APIs
-- PostgreSQL and MongoDB
-- Authentication and application security
-- Docker and deployment
-- Artificial Intelligence & Machine Learning
-- Computer Vision
-- LLM-powered applications
-- Building production-ready software
-
----
-
-## 📊 GitHub Activity
+## GitHub Overview
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&hide_border=true&rank_icon=github"
     height="165"
-    alt="Sandeep's GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&hide_border=true&theme=transparent&rank_icon=github"
+    alt="Sandeep Abeykoon's GitHub stats"
   />
-
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sandeep-Abeykoon&layout=compact&hide_border=true"
     height="165"
-    alt="Most Used Languages"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sandeep-Abeykoon&layout=compact&hide_border=true&theme=transparent"
+    alt="Sandeep Abeykoon's most used languages"
   />
 </p>
 
----
+## Portfolio
 
-## 🤝 Let's Connect
+My portfolio contains a broader view of my **projects, skills, education, and software-engineering work**.
 
-I'm always interested in learning, collaborating on interesting software projects, and exploring opportunities in **Software Engineering, Full-Stack Development, and AI/ML**.
-
-<p align="left">
-  🌐 <a href="https://sandeepabeykoon.me/">Portfolio</a>
-  <br/>
-  💼 <a href="https://www.linkedin.com/in/sandeep-abeykoon-39094b223/">LinkedIn</a>
-  <br/>
-  📧 <a href="mailto:sandeepchanura@gmail.com">sandeepchanura@gmail.com</a>
+<p>
+  <a href="https://sandeepabeykoon.me/">
+    <img src="https://img.shields.io/badge/View%20My%20Portfolio-sandeepabeykoon.me-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="View Portfolio" />
+  </a>
 </p>
 
----
+## Let's Connect
+
+I'm open to connecting with developers, collaborating on interesting projects, and exploring opportunities in **Software Engineering, Full-Stack Development, and AI/ML**.
+
+- 🌐 **Portfolio:** [sandeepabeykoon.me](https://sandeepabeykoon.me/)
+- 💼 **LinkedIn:** [Sandeep Abeykoon](https://www.linkedin.com/in/sandeepabeykoon)
+- 📧 **Email:** [sandeepchanura@gmail.com](mailto:sandeepchanura@gmail.com)
 
 <p align="center">
-  <i>Building software. Learning continuously. Solving real problems.</i>
+  <strong>Build • Learn • Improve • Repeat</strong>
+</p>
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:1e3a8a,100:2563eb&height=110&section=footer"
+    alt=""
+  />
 </p>
