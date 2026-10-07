@@ -1,38 +1,226 @@
-![Header](https://github.com/Sandeep-Abeykoon/Sandeep-Abeykoon/blob/main/github-header-image.png)
+<!-- =========================
+     HEADER
+========================= -->
 
-<h1 align="center">Hi 👋, I'm Sandeep Abeykoon</h1>
-<h3 align="center">A passionate Software Engineering Undergraduate who is eager to learn new things</h3>
-
-<img align="right" alt="Coding image" width="400" src="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966">
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sandeep-abeykoon&label=Profile%20views&color=0e75b6&style=flat" alt="sandeep-abeykoon" /> </p>
-
-<p align="left"> <a href="https://twitter.com/sandeep_abey" target="blank"><img src="https://img.shields.io/twitter/follow/sandeep_abey?logo=twitter&style=for-the-badge" alt="sandeep_abey" /></a> </p>
-
-- 🔭 I’m currently working on **Sales forecasting and sales brand recommendation using ML and NLP**
-
-- 🌱 I’m currently learning **Flutter, PHP, R, and ML Related technologies**
-
-- 📫 How to reach me **sandeepchanura@gmail.com**
-
-- 📄 Know about my experiences [https://www.linkedin.com/in/sandeep-abeykoon-39094b223/](https://www.linkedin.com/in/sandeep-abeykoon-39094b223/)
-
-- ⚡ Fun fact **Love watching cartoons😂**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/sandeep_abey" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sandeep_abey" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/sandeep-abeykoon" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sandeep-abeykoon" height="30" width="40" /></a>
-<a href="https://fb.com/sandeep abeykoon" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="sandeep abeykoon" height="30" width="40" /></a>
-<a href="https://instagram.com/sandeep_chanura" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sandeep_chanura" height="30" width="40" /></a>
-<a href="https://discord.gg/Sandeep#8942" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Sandeep#8942" height="30" width="40" /></a>
+<p align="center">
+  <img src="./github-header-image.png" alt="Sandeep Abeykoon GitHub Header" width="100%" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+<h1 align="center">Hi, I'm Sandeep Abeykoon 👋</h1>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sandeep-abeykoon&show_icons=true&locale=en&layout=compact" alt="sandeep-abeykoon" /></p>
+<h3 align="center">
+  Software Engineering Undergraduate • Full-Stack Developer • AI/ML
+</h3>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sandeep-abeykoon&show_icons=true&locale=en" alt="sandeep-abeykoon" /></p>
+<p align="center">
+  I build modern full-stack applications and intelligent software systems,
+  with a focus on clean architecture, practical problem-solving, and user-focused experiences.
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sandeep-abeykoon&" alt="sandeep-abeykoon" /></p>
+<p align="center">
+  <a href="https://sandeepabeykoon.me/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/sandeep-abeykoon-39094b223/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:sandeepchanura@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## 👨‍💻 About Me
+
+I am a **Software Engineering undergraduate** interested in building practical, scalable, and intelligent software solutions.
+
+My work currently focuses on **full-stack web development, backend systems, databases, AI/ML, computer vision, and modern web technologies**.
+
+I enjoy working on projects that go beyond basic CRUD applications and involve areas such as authentication, APIs, role-based access control, data processing, AI integration, explainability, analytics, and real-world business requirements.
+
+- 🎓 Software Engineering Undergraduate
+- 💻 Full-Stack Web Development
+- 🤖 AI / Machine Learning
+- 🧠 Computer Vision & Explainable AI
+- 🗄️ Database Design & Backend Development
+- 🐳 Docker & modern development workflows
+- 🌱 Continuously learning software architecture, AI/ML, and production-ready development
+
+---
+
+## 🚀 Featured Projects
+
+### 🔬 TireVisionPro
+
+**Explainable AI-based Tire Defect Detection System**
+
+AI-powered tire defect classification system designed to identify tire defects and provide understandable explanations for model predictions.
+
+**Highlights**
+
+- Deep learning-based tire defect classification
+- Hybrid ensemble model experimentation
+- Cross-dataset model evaluation
+- Explainable AI using **LIME and SHAP**
+- LLM-generated technician-friendly explanations
+- React frontend with Flask backend
+- Structured model testing and performance evaluation
+
+**Tech:** Python · Deep Learning · Flask · React · LIME · SHAP · Machine Learning
+
+---
+
+### 🥫 ShelfLife
+
+**AI-Powered Food Management & Food Waste Reduction Platform**
+
+A full-stack application designed to help users manage food inventory, monitor expiry dates, reduce food waste, and receive intelligent recommendations.
+
+**Highlights**
+
+- Pantry and food inventory management
+- Expiry intelligence and "Use First" recommendations
+- Consumed and wasted food tracking
+- Dashboard and analytics
+- Secure authentication
+- AI assistant integration
+- Image and expiry-date scanning
+- Voice interaction features
+- Dockerized development environment
+
+**Tech:** React · Node.js · Express.js · MongoDB · AI/ML · Docker
+
+---
+
+### 📸 Memo-Ceylon
+
+**Tourist Photography Sales & Digital Delivery Platform**
+
+A full-stack platform designed for tourist photography businesses to organize photography sessions and allow visitors to discover, purchase, and securely access their photos.
+
+**Highlights**
+
+- Location, date, and session-based photo discovery
+- Session-based QR access
+- Photographer and administrator roles
+- Role-based authentication and authorization
+- Automated watermarking and photo processing
+- Private original image storage
+- Shopping cart and order management
+- Gallery expiry management
+- Public and private photo purchase workflows
+- Payment integration architecture
+
+**Tech:** React · TypeScript · NestJS · PostgreSQL · Prisma · REST APIs
+
+---
+
+### 🏢 JMJ Enterprise
+
+**Modern Business Website & Management Platform**
+
+A real-world business web application developed collaboratively as part of a three-member development team.
+
+**Highlights**
+
+- Modern responsive business website
+- Product and content management
+- Administrative functionality
+- Database-backed application architecture
+- Cloud-based media handling
+- Modern responsive UI/UX
+- SEO and performance-focused implementation
+
+**Tech:** Next.js · TypeScript · React · Prisma · PostgreSQL · AWS S3
+
+---
+
+## 🛠️ Technical Skills
+
+### Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind" />
+</p>
+
+### Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,flask,python,java" />
+</p>
+
+### Databases
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql" />
+</p>
+
+### AI / Machine Learning
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow" />
+</p>
+
+**Also working with:**  
+Machine Learning · Deep Learning · Computer Vision · Scikit-learn · Pandas · LIME · SHAP · LLM Integration
+
+### Development Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode" />
+</p>
+
+---
+
+## 🎯 Current Focus
+
+I'm currently focusing on improving my knowledge and experience in:
+
+- Full-stack application architecture
+- Backend engineering and REST APIs
+- PostgreSQL and MongoDB
+- Authentication and application security
+- Docker and deployment
+- Artificial Intelligence & Machine Learning
+- Computer Vision
+- LLM-powered applications
+- Building production-ready software
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Sandeep-Abeykoon&show_icons=true&hide_border=true&rank_icon=github"
+    height="165"
+    alt="Sandeep's GitHub Stats"
+  />
+
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sandeep-Abeykoon&layout=compact&hide_border=true"
+    height="165"
+    alt="Most Used Languages"
+  />
+</p>
+
+---
+
+## 🤝 Let's Connect
+
+I'm always interested in learning, collaborating on interesting software projects, and exploring opportunities in **Software Engineering, Full-Stack Development, and AI/ML**.
+
+<p align="left">
+  🌐 <a href="https://sandeepabeykoon.me/">Portfolio</a>
+  <br/>
+  💼 <a href="https://www.linkedin.com/in/sandeep-abeykoon-39094b223/">LinkedIn</a>
+  <br/>
+  📧 <a href="mailto:sandeepchanura@gmail.com">sandeepchanura@gmail.com</a>
+</p>
+
+---
+
+<p align="center">
+  <i>Building software. Learning continuously. Solving real problems.</i>
+</p>
