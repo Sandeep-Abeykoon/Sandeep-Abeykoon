@@ -121,6 +121,12 @@ An ESP32 smart water-level monitor with an OLED interface, live WebSocket and RE
       alt="Total number of public GitHub commits"
     />
   </a>
+  <a href="https://github.com/Sandeep-Abeykoon">
+    <img
+      src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2FSandeep-Abeykoon%3Fy%3Dlast&query=%24.total.lastYear&label=Contributions%20(Last%2012%20Months)&color=238636&labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
+      alt="Total GitHub contributions over the last 12 months"
+    />
+  </a>
 </p>
 
 <p align="center">
