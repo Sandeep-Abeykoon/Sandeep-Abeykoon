@@ -41,7 +41,7 @@ I build practical **full-stack products** and **applied AI systems**, working ac
 <p>A privacy-conscious shared care workspace that helps households coordinate medicines, appointments, clinical documents, blood-pressure records, and person-specific health information.</p>
 <p><strong>Outcome:</strong> Brings fragmented household care into one access-controlled system with medication-stock alerts, browser reminders, printable care summaries, secure document storage, data-quality checks, and recoverable deletion workflows.</p>
 <p><strong>Stack:</strong> <code>React</code> <code>Express</code> <code>MongoDB</code> <code>AWS S3</code> <code>Web Push</code></p>
-<p><a href="https://github.com/Sandeep-Abeykoon/HomeLedger"><strong>Repository →</strong></a></p>
+<p><a href="https://github.com/Sandeep-Abeykoon/HomeLedger"><strong>Repository</strong></a> · <a href="https://homeledger.online/"><strong>Live Site →</strong></a></p>
 </td>
 </tr>
 <tr>
