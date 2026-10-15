@@ -37,6 +37,15 @@ I build practical **full-stack products** and **applied AI systems**, working ac
 <table>
 <tr>
 <td width="100%" valign="top">
+<h3>🏠 HomeLedger</h3>
+<p>A privacy-conscious shared care workspace that helps households coordinate medicines, appointments, clinical documents, blood-pressure records, and person-specific health information.</p>
+<p><strong>Outcome:</strong> Brings fragmented household care into one access-controlled system with medication-stock alerts, browser reminders, printable care summaries, secure document storage, data-quality checks, and recoverable deletion workflows.</p>
+<p><strong>Stack:</strong> <code>React</code> <code>Express</code> <code>MongoDB</code> <code>AWS S3</code> <code>Web Push</code></p>
+<p><a href="https://github.com/Sandeep-Abeykoon/HomeLedger"><strong>Repository →</strong></a></p>
+</td>
+</tr>
+<tr>
+<td width="100%" valign="top">
 <h3>♻️ OpenWaste-HR</h3>
 <p>A safety-aware, open-set waste-classification system using active learning, calibrated confidence, and manual-review routing.</p>
 <p><strong>Outcome:</strong> Reduced false acceptance of unknown waste from <strong>15.00% to 6.63%</strong> while preserving similar known-class coverage.</p>
