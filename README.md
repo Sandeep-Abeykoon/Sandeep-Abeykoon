@@ -104,24 +104,24 @@ I build practical **full-stack products** and **applied AI systems**, working ac
   <!-- REPOSITORY-COUNT:START -->
   <a href="https://github.com/Sandeep-Abeykoon?tab=repositories">
     <img
-      src="https://img.shields.io/badge/Total%20Repositories-52-238636?labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
-      alt="52 total GitHub repositories"
+      src="https://img.shields.io/badge/Total%20Repositories-53-238636?labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
+      alt="53 total GitHub repositories"
     />
   </a>
   <!-- REPOSITORY-COUNT:END -->
   <!-- COMMIT-COUNT:START -->
   <a href="https://github.com/Sandeep-Abeykoon">
     <img
-      src="https://img.shields.io/badge/Total%20Commits-3%2C171-238636?labelColor=1f2937&style=for-the-badge&logo=git&logoColor=white"
-      alt="3,171 commits authored by Sandeep-Abeykoon across owned GitHub repositories"
+      src="https://img.shields.io/badge/Total%20Commits-3%2C172-238636?labelColor=1f2937&style=for-the-badge&logo=git&logoColor=white"
+      alt="3,172 commits authored by Sandeep-Abeykoon across owned GitHub repositories"
     />
   </a>
   <!-- COMMIT-COUNT:END -->
   <!-- CONTRIBUTION-COUNT:START -->
   <a href="https://github.com/Sandeep-Abeykoon">
     <img
-      src="https://img.shields.io/badge/All--Time%20Contributions-3%2C826-238636?labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
-      alt="3,826 all-time GitHub contributions"
+      src="https://img.shields.io/badge/All--Time%20Contributions-3%2C828-238636?labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
+      alt="3,828 all-time GitHub contributions"
     />
   </a>
   <!-- CONTRIBUTION-COUNT:END -->
