@@ -112,16 +112,16 @@ I build practical **full-stack products** and **applied AI systems**, working ac
   <!-- COMMIT-COUNT:START -->
   <a href="https://github.com/Sandeep-Abeykoon">
     <img
-      src="https://img.shields.io/badge/Total%20Commits-3%2C192-238636?labelColor=1f2937&style=for-the-badge&logo=git&logoColor=white"
-      alt="3,192 commits authored by Sandeep-Abeykoon across owned GitHub repositories"
+      src="https://img.shields.io/badge/Total%20Commits-3%2C196-238636?labelColor=1f2937&style=for-the-badge&logo=git&logoColor=white"
+      alt="3,196 commits authored by Sandeep-Abeykoon across owned GitHub repositories"
     />
   </a>
   <!-- COMMIT-COUNT:END -->
   <!-- CONTRIBUTION-COUNT:START -->
   <a href="https://github.com/Sandeep-Abeykoon">
     <img
-      src="https://img.shields.io/badge/All--Time%20Contributions-3%2C855-238636?labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
-      alt="3,855 all-time GitHub contributions"
+      src="https://img.shields.io/badge/All--Time%20Contributions-3%2C862-238636?labelColor=1f2937&style=for-the-badge&logo=github&logoColor=white"
+      alt="3,862 all-time GitHub contributions"
     />
   </a>
   <!-- CONTRIBUTION-COUNT:END -->
